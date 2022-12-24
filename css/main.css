@@ -427,8 +427,12 @@ body {
 }
 
 .sitenav__link {
-  color: red;
+  color: #000;
   text-decoration: none;
+}
+
+.sitenav__link:hover {
+  color: aqua;
 }
 
 .logo {
