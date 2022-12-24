@@ -1,5 +1,7 @@
 .site-header{
+  padding: 15px;
   background-color: #fafafa;
+  box-shadow: 2px 5px 15px #e0d5d5;
 }
 
 .site-header__inner{
@@ -22,8 +24,7 @@
   text-decoration: none;
 }
 
-@include desktop-first(700px){
-  .sitenav{
-    display: none;
-  }
+.logo{
+  text-decoration: none;
+  font-size: 24px;
 }
